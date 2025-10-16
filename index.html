@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Profile Card — Stage 0</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <figure>
+        <img src="/michy.png" alt="profile photo of michy" data-testid="test-user-avatar" id="user-avatar">
+        <!-- https://i.pravatar.cc/150?img=2 -->
+        <figcaption>
+          <label for="avatar-input" class="upload-label">Upload new avatar</label>
+          <input type="file" id="avatar-input" accept="image/*" class="upload-button">
+        </figcaption>
+      </figure>
+
+      <div class="profile-content">
+        <header>
+          <h2 data-testid="test-user-name">Michelle Utomi (me-chi)</h2>
+
+          <nav aria-label="social links" data-testid="test-user-social-links">
+
+            <a href="https://x.com/am_michelle" target="_blank" rel="noopener noreferrer"
+              data-testid="test-user-social-twitter">Twitter</a></li>
+            <a href="https://github.com/michycipher" target="_blank" rel="noopener noreferrer"
+              data-testid="test-user-social-github">GitHub</a></li>
+            <a href="https://www.linkedin.com/in/michelle-utomi/" target="_blank" rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin">LinkedIn</a></li>
+
+          </nav>
+        </header>
+
+        <p data-testid="test-user-bio" class="user-bio">
+          Frontend developer passionate about creating responsive, accessible, and
+          user-friendly web experiences that make people smile.
+        </p>
+
+        <p class="time">Current time (ms): <span data-testid="test-user-time"></span></p>
+
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Design</li>
+            <li>Music & podcasts</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Procrastination </li>
+            <li>Messy code </li>
+            <li>Rushed deadlines</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>

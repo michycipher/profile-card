@@ -1,0 +1,166 @@
+:root {
+  --bg: #0b1320;
+  --card: #0f1724;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(180deg, var(--bg), #071023);
+  color: #e6eef8;
+  padding: 24px;
+}
+
+.profile-card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 18px;
+  max-width: 780px;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+  display: flex;
+  gap: 98px;
+  flex-direction: column;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+figure img {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.upload-label {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.upload-label:hover {
+  background-color: #0ea5e9;
+}
+
+.upload-button {
+  display: none;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.user-bio {
+  font-size: 0.85rem;
+}
+
+span {
+  font-size: 0.7rem;
+}
+
+.time {
+  background-color: #645d50;
+  color: #e57e3e;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  width: fit-content;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* spacing between list items */
+  list-style: disc;
+  /* show bullet points */
+  margin-left: 5px;
+  /* add some indent for bullets */
+  padding-left: 0;
+  font-size: 0.8rem;
+}
+
+section ul li {
+  flex: 0 1 auto;
+  list-style-position: inside;
+  /* make bullets appear closer to text */
+}
+
+
+a {
+  color: var(--accent);
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.7rem;
+}
+
+a:hover {
+  color: #a1dff9;
+}
+
+a:focus {
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.18);
+  border-radius: 6px;
+}
+
+@media (min-width: 720px) {
+  .profile-card {
+    flex-direction: row;
+    align-items: center;
+    padding: 28px;
+  }
+
+  figure {
+    flex: 0 0 140px;
+  }
+
+  .profile-content {
+    flex: 1;
+  }
+}
+
+@media (max-width: 719px) {
+  .profile-content {
+    text-align: center;
+  }
+
+  nav ul,
+  ul {
+    justify-content: center;
+  }
+
+  .time {
+    margin: 0 auto;
+  }
+
+  .profile-card {
+    gap: 30px;
+  }
+}
