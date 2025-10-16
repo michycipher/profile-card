@@ -8,8 +8,8 @@ It’s a simple, semantic, accessible **Profile Card** built using **plain HTML,
 ---
 
 ## 🚀 Live Demo
-- **Netlify:** [https://profile-card-stage0.netlify.app/](https://profile-card-stage0.netlify.app)/)
-
+- **Netlify:** [https://profile-card-stage0.netlify.app/](https://profile-card-stage0.netlify.app)
+- **Github:** [https://michycipher.github.io/profile-card/](https://michycipher.github.io/profile-card)
 ---
 
 ## 🧱 Features & Requirements Checklist
@@ -58,7 +58,7 @@ Just open `index.html` in your browser.
 ### GitHub Pages
 1. Go to **Settings → Pages**.
 2. Under “Source,” select **Branch: main**, folder **/(root)** → **Save**.
-3. Access at `https://yourusername.github.io/profile-card-stage0/`.
+3. Access at `https://michycipher.github.io/profile-card/`.
 
 ### Netlify
 1. Go to [https://app.netlify.com/drop](https://app.netlify.com/drop).
