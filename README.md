@@ -8,8 +8,7 @@ It’s a simple, semantic, accessible **Profile Card** built using **plain HTML,
 ---
 
 ## 🚀 Live Demo
-- **GitHub Pages:** [https://yourusername.github.io/profile-card-stage0/](https://yourusername.github.io/profile-card-stage0/)
-- **Netlify:** [https://your-netlify-site.netlify.app/](https://your-netlify-site.netlify.app/)
+- **Netlify:** [https://profile-card-stage0.netlify.app/](https://profile-card-stage0.netlify.app)/)
 
 ---
 
