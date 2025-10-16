@@ -5,8 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Profile Card — Stage 0</title>
+
+    <!-- STYLING SHEET -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -15,8 +18,9 @@
 
   <body>
     <article data-testid="test-profile-card" class="profile-card">
+      <!-- Profile / User Image -->
       <figure>
-        <img src="/michy.png" alt="profile photo of michy" data-testid="test-user-avatar" id="user-avatar">
+        <img src="michy.png" alt="profile photo of michy" data-testid="test-user-avatar" id="user-avatar">
         <!-- https://i.pravatar.cc/150?img=2 -->
         <figcaption>
           <label for="avatar-input" class="upload-label">Upload new avatar</label>
@@ -24,6 +28,7 @@
         </figcaption>
       </figure>
 
+      <!-- Profile contents or details -->
       <div class="profile-content">
         <header>
           <h2 data-testid="test-user-name">Michelle Utomi (me-chi)</h2>
@@ -40,6 +45,7 @@
           </nav>
         </header>
 
+        <!-- User Bio -->
         <p data-testid="test-user-bio" class="user-bio">
           Frontend developer passionate about creating responsive, accessible, and
           user-friendly web experiences that make people smile.
@@ -47,6 +53,7 @@
 
         <p class="time">Current time (ms): <span data-testid="test-user-time"></span></p>
 
+        <!-- Hobbies -->
         <section>
           <h3>Hobbies</h3>
           <ul data-testid="test-user-hobbies">
@@ -56,6 +63,7 @@
           </ul>
         </section>
 
+        <!-- Dislikes -->
         <section>
           <h3>Dislikes</h3>
           <ul data-testid="test-user-dislikes">
@@ -67,6 +75,7 @@
       </div>
     </article>
 
+    <!-- Script file -->
     <script src="script.js"></script>
   </body>
 
