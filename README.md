@@ -38,7 +38,7 @@ The avatar supports **two ways to display an image**:
 1. **Default URL (fallback)** — A remote image is shown by default.  
 2. **Upload (optional)** — You can upload any image file. The browser uses `URL.createObjectURL()` to generate a temporary local URL and instantly preview it, satisfying the “must display an image URL” rule.
 
-> This works entirely client-side — no server uploads required.
+> This works entirely client-side — no server uploads
 
 ---
 
