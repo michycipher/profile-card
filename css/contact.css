@@ -1,0 +1,216 @@
+@import url("style.css");
+
+body {
+  padding: 0;
+  display: block;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.contact-card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 18px;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+  overflow-y: hidden;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--muted);
+  background-color: var(--card);
+  color: #e6eef8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+
+textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.18);
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.18);
+}
+
+button {
+  background: var(--accent);
+  border: none;
+  color: #111;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00cc7a;
+}
+
+.error {
+  color: #ff5555;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.success {
+  color: #00ff99;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+/* Tablet devices */
+@media (max-width: 1024px) {
+  body {
+    padding: 0 15px;
+  }
+
+  main {
+    padding: 0 15px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+
+  .contact-card {
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  form {
+    font-size: 0.85rem;
+  }
+
+  input,
+  textarea {
+    font-size: 15px;
+    padding: 0.6rem;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.9rem 1.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  body {
+    padding: 0 8px;
+  }
+
+  main {
+    padding: 0 8px;
+  }
+
+  .contact-card {
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  form {
+    font-size: 0.9rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  button {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+  .contact-card {
+    padding: 10px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+}
+
