@@ -64,5 +64,6 @@ Just open `index.html` in your browser.
 1. Go to [https://app.netlify.com/drop](https://app.netlify.com/drop).
 2. Drag & drop your project folder.
 3. Get a live URL instantly, or link repo for automatic deploys.
+4. Or do it manually.
 
 
