@@ -9,7 +9,7 @@ It’s a simple, semantic, accessible **Profile Card** built using **plain HTML,
 ---
 
 ## Pages
-1. **Home (index.html)** – Profile card
+1. **Home (index.html)** – Profile page
 2. **About Me (about.html)** – Reflection page
 3. **Contact Us (contact.html)** – Validated form
 
@@ -21,12 +21,12 @@ It’s a simple, semantic, accessible **Profile Card** built using **plain HTML,
 
 ---
 ## 🚀 Live Demo
-- **Netlify:** [https://profile-card-stage0.netlify.app/](https://profile-card-stage0.netlify.app)
+- **Netlify:** [https://profile-pages-stage1.netlify.app/](https://profile-pages-stage1.netlify.app/)
 - **Github:** [https://michycipher.github.io/profile-card/](https://michycipher.github.io/profile-card)
 ---
 
 ## Setup
 Clone the repo:
 ```bash
-git clone https://github.com/yourusername/profile-card.git
+git clone https://github.com/michycipher/profile-card.git
 
