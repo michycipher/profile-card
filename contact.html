@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- STYLESHHETS -->
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="contact-card">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" data-testid="test-contact-name" aria-describedby="error-name">
+            <p id="error-name" class="error" data-testid="test-contact-error-name"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" data-testid="test-contact-email" aria-describedby="error-email">
+            <p id="error-email" class="error" data-testid="test-contact-error-email"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" data-testid="test-contact-subject" aria-describedby="error-subject">
+            <p id="error-subject" class="error" data-testid="test-contact-error-subject"></p>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" data-testid="test-contact-message" aria-describedby="error-message"></textarea>
+            <p id="error-message" class="error" data-testid="test-contact-error-message"></p>
+          </div>
+
+          <button type="submit" data-testid="test-contact-submit">Submit</button>
+          <p class="success" data-testid="test-contact-success"></p>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; 2025 Contact Page</p>
+      </footer>
+    </main>
+    <script src="js/contact.js"></script>
+  </body>
+
+</html>

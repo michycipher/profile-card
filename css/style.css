@@ -23,6 +23,36 @@ body {
   padding: 24px;
 }
 
+/* PAGE LINKS | BUTTONS */
+.navbar {
+  text-align: center;
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: var(--accent);
+}
+
+/* END OF PAGES LINKS | BUTTON */
+
 .profile-card {
   background: var(--card);
   border-radius: 14px;
@@ -71,6 +101,7 @@ figure img {
 .upload-button {
   display: none;
 }
+
 /* End of upload section */
 
 /* profile details or content */
@@ -136,6 +167,11 @@ a:focus {
   border-radius: 6px;
 }
 
+footer {
+  font-size: 0.6rem;
+  padding: 10px 0;
+}
+
 /* Break points for responsiveness */
 @media (min-width: 720px) {
   .profile-card {
@@ -173,5 +209,18 @@ a:focus {
 
   h2 {
     font-size: 1.3rem;
+  }
+
+  .navbar {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .navbar li {
+    margin: 0 2px;
+  }
+
+  footer {
+    text-align: center;
   }
 }
