@@ -22,7 +22,7 @@ It’s a simple, semantic, accessible **Profile Card** built using **plain HTML,
 ---
 ## 🚀 Live Demo
 - **Netlify:** [https://profile-pages-stage1.netlify.app/](https://profile-pages-stage1.netlify.app/)
-- **Github:** [https://github.com/michycipher/profile-card/tree/stage-1/](https://github.com/michycipher/profile-card/tree/stage-1)
+- **Github:** [https://github.com/michycipher/profile-card](https://github.com/michycipher/profile-card)
 ---
 
 ## Setup
